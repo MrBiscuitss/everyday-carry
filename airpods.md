@@ -3,7 +3,7 @@ layout: layout.liquid
 title: My AirPods
 ---
 
-{% picture "airpods.jpg", "My AirPods" %}
+{% picture "airpods.jpg(sorry I couldn't get a picture)", "My AirPods" %}
 
 ## My AirPods
 
