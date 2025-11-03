@@ -2,7 +2,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addLiquidShortcode("picture", function (src, alt) {
     return `<figure class="photo">
-              <img src="/${src}" alt="${alt}">
+              <img src="/images/${src}" alt="${alt}">
               <figcaption>${alt}</figcaption>
             </figure>`;
   });
