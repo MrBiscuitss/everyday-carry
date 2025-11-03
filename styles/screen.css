@@ -1,50 +1,54 @@
+:root {
+  --main-color: #1a4d8f;
+  --accent-color: #e0b400;
+  --background: #f8f9fa;
+  --text-color: #333;
+}
+
 body {
-    font-family: Helvetica, sans-serif;
-    color: #EAE8FF;
-    background: #2D3142;
-    padding: 0 40px;
-    text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--background);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0 40px;
+  text-align: center;
 }
 
 nav {
-    margin: 40px auto 0 auto;
-    width: 250px;
-    border-radius: 50px;
-    background: #212431;
+  margin: 40px auto 0 auto;
+  width: 250px;
+  border-radius: 50px;
+  background: var(--main-color);
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li {
-    list-style-type: none;
-    margin: 0;
+  list-style-type: none;
+  margin: 0;
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: #EAE8FF;
-    text-decoration: none;
-    font-size: 1.2em;
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+nav ul li a:hover {
+  color: var(--accent-color);
+}
+
+h1, h2 {
+  color: var(--main-color);
 }
 
 h1 {
-    font-size: 8em;
-    letter-spacing: -2px;
-}
-
-h1 strong {
-    background: rgb(34,193,195);
-    background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-img.about {
-    opacity: 0.5;
-}
+  font-size: 8em;
+  lette
