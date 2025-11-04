@@ -1,14 +1,7 @@
-:root {
-  --main-color: #1a4d8f;
-  --accent-color: #e0b400;
-  --background: #f8f9fa;
-  --text-color: #333;
-}
-
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: var(--background);
-  color: var(--text-color);
+  background-color: #f4f6fb;
+  color: #1e1e1e;
   margin: 0;
   padding: 0 40px;
   text-align: center;
@@ -18,7 +11,7 @@ nav {
   margin: 40px auto 0 auto;
   width: 250px;
   border-radius: 50px;
-  background: var(--main-color);
+  background: #0078d7;
 }
 
 nav ul {
@@ -36,19 +29,26 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   padding: 20px;
-  color: white;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.2em;
+  transition: color 0.3s ease;
 }
 
 nav ul li a:hover {
-  color: var(--accent-color);
+  color: #ff8c00;
 }
 
 h1, h2 {
-  color: var(--main-color);
+  color: #0078d7;
 }
 
 h1 {
   font-size: 8em;
-  lette
+  letter-spacing: -5px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 0;
+}
