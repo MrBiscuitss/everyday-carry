@@ -3,7 +3,7 @@ layout: layout.liquid
 title: My Bag
 ---
 
-{% picture "bag.jpg(sorry I couldn't get a picture)", "My Bag" %}
+{% picture "IMG_1598.jpeg", "My Bag" %}
 
 ## My Bag
 
